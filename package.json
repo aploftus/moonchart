@@ -1,0 +1,54 @@
+{
+  "name": "moonchart",
+  "version": "1.0.0",
+  "description": "women's health tracker",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack",
+    "compile-dev": "webpack -d --watch",
+    "lint": "eslint src && eslint index.js",
+    "start-dev": "npm run compile && nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.9.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aploftus/aploft.us.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "react",
+    "javascript",
+    "node.js",
+    "express.js"
+  ],
+  "author": "Amy Loftus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aploftus/moonchart/issues"
+  },
+  "homepage": "https://github.com/aploftus/moonchart#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.15.0",
+    "file-loader": "^1.1.6",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
